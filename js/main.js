@@ -2,7 +2,6 @@ let mobileDiv = document.getElementById("mobile_div");
 let webDiv = document.getElementById("web_div");
 let phase1Div = document.getElementById("phase1_div");
 let phase2Div = document.getElementById("phase2_div");
-let phase3Div = document.getElementById("phase3_div");
 
 const mobileSources = [
 	"img/Mobile/AppStoreListing.jpg",
@@ -38,23 +37,10 @@ const phase1Sources = [
 
 const phase2Sources = [
 	"img/Deliverables/Phase2/1.png",
-	"img/Deliverables/Phase2/2.png",
-	"img/Deliverables/Phase2/3.png",
-	"img/Deliverables/Phase2/4.png",
-	"img/Deliverables/Phase2/5.png",
-	"img/Deliverables/Phase2/6.png",
-	"img/Deliverables/Phase2/7.png",
-	"img/Deliverables/Phase2/8.png",
-	"img/Deliverables/Phase2/9.png",
-	"img/Deliverables/Phase2/10.png",
+	"img/Deliverables/Phase2/2.png"
 ];
 
-const phase3Sources = [
-	"img/Deliverables/Phase3/1.png",
-	"img/Deliverables/Phase3/2.png",
-	"img/Deliverables/Phase3/3.png",
-	"img/Deliverables/Phase3/4.png",
-];
+
 
 function updateUI() {
     clearAll();
@@ -77,7 +63,6 @@ function addAll() {
 	add(webDiv, webSources, true);
 	add(phase1Div, phase1Sources, true);
 	add(phase2Div, phase2Sources, true);
-	add(phase3Div, phase3Sources, true);
 }
 
 function add(div, sources, isFull) {
