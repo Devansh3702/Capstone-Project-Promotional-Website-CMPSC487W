@@ -15,13 +15,13 @@ const mobileSources = [
 ];
 
 const webSources = [
-	"img/Web/LoginPage.png",
-	"img/Web/HomePage.png",
-	"img/Web/SurveyCreate.png",
-	"img/Web/CompletedSurveys.png",
-	"img/Web/EditPatientInfo.png",
-	"img/Web/NewPatientAccount.png",
-	"img/Web/DoctorProfile.png",
+	"img/Web/1WelcomePage.jpg",
+	"img/Web/2SignUpPage.jpg",
+	"img/Web/3HomePage.jpg",
+	"img/Web/4SeeListings.jpg",
+	"img/Web/5ListingPage.jpg",
+	"img/Web/6AfterBidPlaced.jpg",
+	"img/Web/7AuctionWon.jpg",
 ];
 
 const phase1Sources = [
