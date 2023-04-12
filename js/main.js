@@ -4,14 +4,7 @@ let phase1Div = document.getElementById("phase1_div");
 let phase2Div = document.getElementById("phase2_div");
 
 const mobileSources = [
-	"img/Mobile/AppStoreListing.jpg",
-	"img/Mobile/LoginPage.jpg",
-	"img/Mobile/HomePage.jpg",
-	"img/Mobile/MyProfile.jpg",
-	"img/Mobile/TakeSurvey.jpg",
-	"img/Mobile/CompletedSurvey.jpg",
-	"img/Mobile/RiskCalc.jpg",
-	"img/Mobile/GeneralInfo.jpg",
+
 ];
 
 const webSources = [
